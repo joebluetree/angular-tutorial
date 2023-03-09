@@ -1,7 +1,7 @@
 # Angular Training
 
 <p>
-<a href="./form.md">Template Driven Form</a>
+<a href="form.md">Template Driven Form</a>
 </p>
 
 <p>
