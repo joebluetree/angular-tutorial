@@ -3,10 +3,9 @@
 #### Creating Form Group
 ```
 form = new FormGroup({
-  code: new FormControl(false),
+  code: new FormControl(''),
   name: new FormControl('')
 });
-
 ```
 #### Html Template
 ```
