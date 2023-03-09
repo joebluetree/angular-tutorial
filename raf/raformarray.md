@@ -5,10 +5,12 @@
 form = new FormArray(
   [new FormControl('')]
 );
-// Add record to array
-this.form.push(new FormControl(''));
-// Remove record from array
-this.form.removeAt(index);
+addControl() {
+  this.form.push(new FormControl(''));
+}
+removeControl(index: number) {
+  this.form.removeAt(index);
+}
 ```
 
 #### Html Template
