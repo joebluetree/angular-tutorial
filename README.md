@@ -16,6 +16,7 @@
 <li><a href="raf/raformgroup.md">Form Group</a> </li>
 <li><a href="raf/raformarray.md">Form Array</a> </li>
 <li><a href="raf/raformvalidation.md">Form Validation</a> </li>
+<li><a href="raf/cva.md">Control Value Accessor</a> </li>
 </ul>
 </p>
 
