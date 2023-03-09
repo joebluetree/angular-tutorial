@@ -98,33 +98,6 @@ code.errors?.['required']
   </div>
 </div>
 ```
-#### Sub Form
-```
-<div [ngModelGroup]="group">
-  <div>
-    <fieldset>
-      <legend><ng-content></ng-content></legend>
-      <div class="form-group row">
-        <label class="col-md-4 form-label form-label-sm" for="">Address</label>
-        <div class="col-md-8">
-          <input type="text" class="form-control form-control-sm" #address="ngModel" name="address"
-            [(ngModel)]="addressRec.address" required minlength="3">
-          <div *ngIf="address.touched && address.invalid" class="text-danger">
-            <span *ngIf="address.errors?.['required']">Code Required</span>
-          </div>
-        </div>
-      </div>
-      <div class="form-group row">
-        <label class="col-md-4 form-label form-label-sm" for="">City</label>
-        <div class="col-md-8">
-          <input type="text" class="form-control form-control-sm" #city="ngModel" name="city"
-            [(ngModel)]="addressRec.city">
-        </div>
-      </div>
-    </fieldset>
-  </div>
-</div>
-```
 #### Component Provider
 ```
 @Component({
