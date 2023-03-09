@@ -1,4 +1,4 @@
-## Reactive Form
+## Reactive Form Control
 
 #### Creating a Simple Reactive Form Control
 ```
