@@ -5,6 +5,6 @@
 </p>
 
 <p>
-<a href="custom_form_valiation.md">Custom Form Validation </a>
+<a href="custom_form_validation.md">Custom Form Validation </a>
 </p>
 
