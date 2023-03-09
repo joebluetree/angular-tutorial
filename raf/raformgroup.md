@@ -7,8 +7,6 @@ form = new FormGroup({
   name: new FormControl('')
 });
 
-
-
 ```
 #### Html Template
 ```
@@ -18,7 +16,6 @@ form = new FormGroup({
  <pre>Form Value: {{ form.value | json }}</pre>
 </form>
 ```
-
 
 
 #### Nested From Group
