@@ -1,13 +1,22 @@
 ## Reactive Form
 
-#### Main Form
+#### Creating a Simple Reactive Form Control
 ```
-form #frm="ngForm"
-#code="ngModel" name="code"
-code.touched && code.invalid
-code.errors?.['required']
-[ngModelGroup]="group"
-<fieldset>
-<legend>
-
+//Create Control
+control = new FormControl('zack');
+//Value Changes
+this.control.valueChanges.pipe(
+tap(value => console.log(value)),
+takeUntil(this._destroying$)
+)
+//Set Control Value
+this.control.setValue('Zack');
+//Enable/Disable Control
+this.control.enable();
+this.control.disable();
+```
+```
+//Html Template
+<input type="text" [formControl]="control" />
+{{control.value}} 
 ```
