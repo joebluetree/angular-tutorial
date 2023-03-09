@@ -1,6 +1,6 @@
 ## Custom Template Form Validation
 
-#### Validation Diretive
+#### Validation Directive
 ```
 import { Directive } from '@angular/core';
 import { AbstractControl, NG_VALIDATORS, ValidationErrors, Validator } from '@angular/forms';
