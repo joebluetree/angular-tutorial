@@ -13,6 +13,8 @@
 <p>
 <ul>
 <li><a href="raf/raform.md">Reactive Form</a> </li>
+<li><a href="raf/raformgroup.md">Form Group</a> </li>
+<li><a href="raf/raformarray.md">Form Array</a> </li>
 </ul>
 </p>
 
