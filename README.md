@@ -4,6 +4,7 @@
 <p>
 <ul>
 <li><a href="setup/setup.md">Angular Setup</a> </li>
+<li><a href="setup/coremodule.md">Add Core Module</a> </li>
 </ul>
 </p>
 
