@@ -1,5 +1,13 @@
 # Angular Training
 
+#### Angular Setup
+<p>
+<ul>
+<li><a href="setup/setup.md">Angular Setup</a> </li>
+</ul>
+</p>
+
+
 #### Template Driven Form 
 <p>
 <ul>
