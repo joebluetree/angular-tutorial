@@ -1,3 +1,9 @@
+## Ngrx  Login Steps
+
+####  Steps
+```
+
+
 Create Below Actions
 1. Login (code,password)
 2. Login Success 
@@ -95,3 +101,5 @@ Create Reducer
 	    private store: Store
 	  ) { }
 
+
+```
