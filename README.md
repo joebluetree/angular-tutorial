@@ -37,7 +37,7 @@
 <li><a href="ngrx/login.md">ngrx Login Screen</a> </li>
 
 <li><a href="ngrx/ngx_entity.md">ngrx Entity Steps</a> </li>
-<li><a href="ngrx/ngx_entity.md">ngrx Entity Screen</a> </li>
+
 
 </ul>
 </p>
