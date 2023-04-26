@@ -47,7 +47,8 @@
 	4. Get Initial State from adapter
 		export const initialState: ModuleState = adapter.getInitialState({
 		  selectid: 0,
-		  search_record: <iModulem_Search>{ module_name: '', 						  module_is_installed: 'NA' },
+		  search_record: <iModulem_Search>{ module_name: '',
+		  module_is_installed: 'NA' },
 		  page: <iPage>{ currentPageNo: 1, pages: 0, pageSize: 10, rows: 0 },
 		  sort_column: 'module_order',
 		  sort_order: 'asc',
@@ -57,7 +58,8 @@
 		export const moduleReducer = createReducer<ModuleState>(
 		  initialState,
 		  on(module_load_success, (state, action) => {
-		    return adapter.setAll(action.records, { ...state, page: action.page, 			error: '' });
+		    return adapter.setAll(action.records, 
+			{ ...state, page: action.page, error: '' });
 		  }),
 		  on(module_load_failure, (state, action) => {
 		    return adapter.removeAll({ ...state, error: action.erorr })
@@ -70,16 +72,18 @@
 		  }),
 		)
 	6. Get Selectors from adapter adapter.getSelectors();
-		export const { selectAll, selectEntities, selectIds, selectTotal } = 				adapter.getSelectors();
+		export const { selectAll, selectEntities, selectIds, selectTotal } =
+ 				adapter.getSelectors();
 	7. Set FeatuerName and Create FeatureSelector
 		export const ModuleFeatureName = 'moduleState';
-		export const moduleFeature = createFeatureSelector<ModuleState>					(ModuleFeatureName);
+		export const moduleFeature = createFeatureSelector<ModuleState>
+		(ModuleFeatureName);
 ```
 
 ####  Module  Reference
 ```	
-	1.	StoreModule.forFeature(ModuleFeatureName, moduleReducer),
-	2.    EffectsModule.forFeature([ModuleEffects])
+	1.StoreModule.forFeature(ModuleFeatureName, moduleReducer),
+	2.EffectsModule.forFeature([ModuleEffects])
 ```
 
 ####  Create Selector
