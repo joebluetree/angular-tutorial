@@ -4,6 +4,8 @@
 ```
 ng new myApp
 ```
+#### do not install Angular Router 
+
 
 #### install bootstrap, font-awesome, popper.js
 ```
@@ -19,8 +21,7 @@ npm i popper.js
 	"./node_modules/font-awesome/css/font-awesome.css"
 ],
 "scripts": [
-	"./node_modules/@popperjs/core/dist/umd/popper.min.js",
-	"./node_modules/bootstrap/dist/js/bootstrap.min.js"
+	"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 ]
 ```
 #### Test bootstrap, font-awesome, popper.js
